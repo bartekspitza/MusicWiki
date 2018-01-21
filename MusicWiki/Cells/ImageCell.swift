@@ -9,26 +9,28 @@
 import UIKit
 
 class ImageCell: UITableViewCell {
-
+    var isGradientActive = false
     @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var parallaxTopCostraint: NSLayoutConstraint!
+    @IBOutlet weak var parallaxImageHeight: NSLayoutConstraint!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        imgView.clipsToBounds = true
         imgView.contentMode = .scaleAspectFill
-//        let gradientLayer: CAGradientLayer = CAGradientLayer()
-//        gradientLayer.colors = [UIColor.clear.cgColor, themeColor.withAlphaComponent(0.2).cgColor, themeColor.cgColor]
-//        gradientLayer.frame = CGRect(x: 0, y: 0, width: Int(self.frame.width), height: Int(self.view.frame.height*0.4))
-//        gradientLayer.locations = [0.0, 0.6, 1.0]
-//
-//        imgView.layer.addSublayer(gradientLayer)
+        imgView.clipsToBounds = true
+        
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+    func addGradient(frame: CGRect) {
 
-        // Configure the view for the selected state
+        if !isGradientActive {
+            isGradientActive = true
+            let gradientLayer: CAGradientLayer = CAGradientLayer()
+            gradientLayer.frame = frame
+            gradientLayer.colors = [UIColor.clear.cgColor, themeColor.withAlphaComponent(0.2).cgColor, themeColor.cgColor]
+            gradientLayer.locations = [0.0, 0.6, 1.0]
+            
+            self.layer.addSublayer(gradientLayer)
+        }
     }
-
 }

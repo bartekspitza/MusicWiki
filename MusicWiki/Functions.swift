@@ -10,13 +10,18 @@ import Foundation
 import UIKit
 
 func rgb(_ red: Int, _ green: Int, _ blue: Int, _ alpha: Float = 1.0) -> UIColor {
-//    return UIColor.init(red: CGFloat(red/255), green: CGFloat(green/255), blue: CGFloat(blue/255), alpha: CGFloat(alpha))
     return UIColor(
         red: CGFloat(red) / 255.0,
         green: CGFloat(green) / 255.0,
         blue: CGFloat(blue) / 255.0,
         alpha: CGFloat(alpha)
     )
+}
+
+extension Collection {
+    subscript (safe index: Index) -> Element? {
+        return indices.contains(index) ? self[index] : nil
+    }
 }
 
 extension UIImageView {
@@ -43,7 +48,6 @@ extension UIImageView {
 }
 
 extension UIButton {
-    
     func shake(direction: String, swings: Float) {
         
         let shake = CABasicAnimation(keyPath: "position")

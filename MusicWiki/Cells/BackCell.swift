@@ -9,16 +9,14 @@
 import UIKit
 
 class BackCell: UITableViewCell {
-
+    @IBOutlet weak var btn: UIButton!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.backgroundColor = .clear
+        
+        btn.backgroundColor = buttonColor
+        btn.setTitleColor(.white, for: UIControlState.normal)
+        btn.layer.cornerRadius = 20
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }
