@@ -25,10 +25,6 @@ class ArtistVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     let popupHeaderLbl = UILabel()
     let popupText = UITextView()
     
-    var panGestureRecognizer: UIPanGestureRecognizer?
-    var originalPosition: CGPoint?
-    var currentPositionTouched: CGPoint?
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         getThumbnails()
