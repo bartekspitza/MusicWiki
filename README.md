@@ -5,4 +5,4 @@
 ❌ On App Store:
 Denied in the review process due to copyright issues.
 
-<img src="https://github.com/bartekspitza/musicwiki/blob/master/assets/Home5.5-inch---Screen-05.png" width="100"> <img src="https://github.com/bartekspitza/musicwiki/blob/master/assets/Home5.5-inch---Screen-05.png" width="100">
+<img src="https://github.com/bartekspitza/musicwiki/blob/master/assets/Home5.5-inch---Screen-05.png" width="300"> <img src="https://github.com/bartekspitza/musicwiki/blob/master/assets/Artist5.5-inch---Screen-05.png" width="300"> <img src="https://github.com/bartekspitza/musicwiki/blob/master/assets/Artist-desc5.5-inch---Screen-05.png" width="300">
