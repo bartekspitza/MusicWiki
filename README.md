@@ -1,4 +1,5 @@
-# MusicWiki
+# MusicWiki 
+<img src="https://github.com/bartekspitza/musicwiki/blob/master/assets/120p.png" width="50">
 ### An iOS app to search for artist and quickly find out their most important info.
 
 
