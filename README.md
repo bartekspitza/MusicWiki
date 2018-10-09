@@ -17,4 +17,5 @@ _Some images of how the application looks:_
 </br>
 
 **App Store status**:
+
 ❎ - Denied in the review process due to copyright issues.
