@@ -5,4 +5,4 @@
 ❌ On App Store:
 Denied in the review process due to copyright issues.
 
-![alt text](https://github.com/bartekspitza/musicwiki/blob/master/assets/Home5.5-inch---Screen-05.png "Logo Title Text 1") 
+![alt text](https://github.com/bartekspitza/musicwiki/blob/master/assets/Home5.5-inch---Screen-05.png | width=48)
