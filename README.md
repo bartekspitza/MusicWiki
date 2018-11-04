@@ -16,7 +16,7 @@ Search for any artist and quickly find relevant information about them.
 </br>
 </br>
 
-The applicaton communicates with an <a href="https://github.com/bartekspitza/musicwikiapi">API</a> that searches and scrapes the web for the artist entered by the user.
+The application communicates with an <a href="https://github.com/bartekspitza/musicwikiapi">API</a> that searches and scrapes the web for the artist entered by the user.
 
 **App Store status**:
 
