@@ -4,7 +4,7 @@
 </br>
 </br>
 
-This project might have been the most fun thus far. This was the first time I created something that talked to the internet. In this case, it communicates with an <a href="https://github.com/bartekspitza/musicwikiapi">API</a> written in Python, Flask, that scrapes the web for information. The application itself is written in Swift 4.
+An iOS application written in Swift 4. This was the first time I created something that talked to the internet, and that's very cool!. It communicates with an <a href="https://github.com/bartekspitza/musicwikiapi">API</a> written in Python, Flask, that scrapes the web for information. I consider this project to be one of the most important for my self-learning process.
 
 ![basic-controls](https://github.com/bartekspitza/Music-Wiki/blob/master/assets/demo.gif?raw=true)
 
