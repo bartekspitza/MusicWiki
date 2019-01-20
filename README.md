@@ -1,8 +1,5 @@
 # MusicWiki 
-
-### An iOS Music app.
-
-Search for any artist and quickly find relevant information about them. 
+#### Search for any artist and quickly find relevant information about them. 
 
 This project might have been the most fun thus far. This was the first time I created something that talked to the internet. In this case, it communicates with an <a href="https://github.com/bartekspitza/musicwikiapi">API</a> written in Python, Flask, that scrapes the web for information. The application itself is written in Swift 4.
   
